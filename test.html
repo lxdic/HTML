@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        nav{
+           width: 100%;
+            padding: 25px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            gap: 20px;
+            flex-wrap:nowrap;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(252, 246, 246);
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover{
+            color: rgb(211, 7, 160);
+        }
+        .brand{
+            color: rgb(250, 204, 1); 
+            font-family:'kaushan script',cursive;   
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+            font-style: italic;
+            
+             
+            
+        }
+        .hero{
+            min-height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1554941829-202a0b2403b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN0dWRpbyUyMGJhY2tncm91bmQlMjBibGFjayUyMGFuZCUyMGdyZXl8ZW58MHx8MHx8fDA%3D');
+            background-size: cover;
+              background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url('https://images.unsplash.com/photo-1554941829-202a0b2403b8?w=1400&auto=format&fit=crop&q=80');
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .hero-content{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .hero-content h2{
+            font-size: 24px;
+            font-style: italic;
+            font-weight:normal;
+            margin-bottom: 15px;
+        }
+        .hero-content h1{
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .hero-content button{
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(248, 203, 2);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero-content button:hover{
+            background-color: rgb(211, 7, 160);
+        }
+        .services{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            gap: 20px;
+        }
+        .column{
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            color: rgb(14, 0, 0);
+        }
+        .icon-circle{
+            width: 120px;
+            height: 120px;
+            background-color: rgb(248, 203, 2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px auto;
+        }
+        .icon-circle i{
+            font-size: 45px;
+            color: white;
+        }
+        footer{
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="hero">
+    <nav>
+        <h2 class="brand">Start Bootstrap</h2>
+        <ul>
+            <li><a style="color: #ff8902;" href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Contact</a></li>
+                    </ul>
+        
+    </nav>
+        <div class="hero-content">
+        <h2>Welcome To Our Studio!</h2>
+        <h1>IT'S NICE TO MEET YOU</h1>
+        <button>Tell Me More</button>
+    </div>
+    </header>
+    <section class="services">
+   <h2>SERVICES</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+    </section>
+    <section class="content">
+        <div class="column">
+             <div class="service box">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        <h3>E-Commerce</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium asperiores exercitationem, sed rerum dicta voluptatem repellat itaque tempora nam.</p>
+        
+        </div>
+        </div>
+        <div class="column">
+            <div class="service box">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-laptop"></i>
+                </div>
+            </div>
+        <h3>Responsive Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus impedit, iste quae cumque voluptates doloremque recusandae sapiente suscipit ad nam.</p>
+        
+        </div>
+        </div>
+        <div class="column">
+             <div class="service box">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            </div>  
+        <h3>Web Security</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus provident et maiores vel amet? Mollitia nihil libero sequi blanditiis doloremque!</p>
+       
+        </div>
+    </section> 
+    <footer>
+        <p>Copyright &copy; Your Website 2026</p>
+    </footer> 
+</body>
+</html>

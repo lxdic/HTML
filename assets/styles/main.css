@@ -1,0 +1,85 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow';
+    background-color: rgb(143, 65, 143);
+}
+h1{
+    color:antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+} 
+h2{
+    color:rgb(247, 244, 242);
+    text-align: center;
+}   
+h3{
+    color:rgb(206, 205, 202);
+    text-align: center;
+}
+p{
+    color:seashell;
+    font-size:20px;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(3, 2, 0);
+    background-color: rgb(49, 222, 245);
+    margin-right: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+}
+a:hover{
+    background-color: rgb(252, 207, 116);
+}
+hr{
+    border: 2px solid rgb(12, 0, 0);
+}
+.body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fcefb6;
+}
+.name{
+    color: #0d78e4;
+font-size: 36px;
+text-decoration: underline;
+}
+.email{
+    color: #067ef7;
+    font-size: 28px;
+    text-decoration: underline;
+
+}
+.email{
+    color: #067ef7;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.phone{
+    color: #067ef7;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.hobbies{
+    color: #067ef7;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.education{
+    color: #067ef7;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.p1{
+    color: #290101;
+    font-size: 18px;
+}
+.carousel-inner{
+    height: 600px;
+}
+.carousel-item img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
